@@ -1,5 +1,9 @@
 # AgenticOptio
 
+[![PyPI version](https://badge.fury.io/py/agenticoptio.svg)](https://badge.fury.io/py/agenticoptio)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 *Command. Coordinate. Execute.*
 
 AgenticOptio is a disciplined AI agent library built for reliable multi-model orchestration. Named after the Roman military **Optio**—the trusted second-in-command who coordinated formations, supervised operations, and stepped in as acting commander—this framework embodies the same principles of tactical coordination, operational resilience, and execution discipline.
@@ -25,17 +29,14 @@ AgenticOptio is a disciplined AI agent library built for reliable multi-model or
 ## Installation
 
 ```bash
-# Install directly from GitHub
-pip install git+https://github.com/yourusername/agenticoptio.git
+# Install from PyPI (recommended)
+pip install agenticoptio
 
-# Or clone and install locally
-git clone https://github.com/yourusername/agenticoptio.git
-cd agenticoptio
-pip install -e .
-
-# Or install dependencies manually
-pip install openai
+# Or install from GitHub for latest development version
+pip install git+https://github.com/kactlabs/agenticoptio.git
 ```
+
+**Requirements:** Python 3.8+
 
 ## Prerequisites
 
@@ -50,6 +51,15 @@ pip install openai
 - Groq: API key from [Groq Console](https://console.groq.com/)
 
 ## Quick Start
+
+```bash
+# 1. Install AgenticOptio
+pip install agenticoptio
+
+# 2. Install and start Ollama
+# Download from https://ollama.ai/
+ollama pull llama3.2
+```
 
 ### Basic Chat
 
@@ -234,11 +244,12 @@ In Roman legions, the **Optio** was the disciplined officer who transformed stra
 - **Rapid Deployment**: Minimal dependencies for quick battlefield setup
 - **Scalable Command**: From single agents to complex multi-agent orchestrations
 
+## Links
+
+- **PyPI Package**: https://pypi.org/project/agenticoptio/
+- **GitHub Repository**: https://github.com/kactlabs/agenticoptio
+- **Documentation**: Coming soon
+
 ## License
 
 MIT License
-
-### Screenshot
-![1765426639666](image/README/1765426639666.png)
-
-![1765427052471](image/README/1765427052471.png)

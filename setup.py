@@ -15,7 +15,7 @@ setup(
     description="Minimal AI agent library focused on Ollama integration",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/agenticoptio",
+    url="https://github.com/kactlabs/agenticoptio",
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     classifiers=[
