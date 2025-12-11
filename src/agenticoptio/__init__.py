@@ -1,5 +1,8 @@
 """
-AgenticOptio - Lightweight AI agent library supporting multiple model providers.
+AgenticOptio - Disciplined AI agent coordination library.
+
+Named after the Roman Optio, this framework brings military-grade coordination,
+resilience, and execution discipline to multi-model AI operations.
 
 Currently supports Ollama with OpenAI, Anthropic, and other providers coming soon.
 """

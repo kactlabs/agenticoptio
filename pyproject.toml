@@ -1,7 +1,7 @@
 [project]
 name = "agenticoptio"
 version = "0.1.0"
-description = "Lightweight AI agent library supporting multiple model providers"
+description = "Disciplined AI agent coordination library inspired by Roman military precision"
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.8"
