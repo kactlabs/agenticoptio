@@ -55,6 +55,10 @@ exclude_patterns = [
 # Generate autosummary stubs
 autosummary_generate = True
 
+autodoc_mock_imports = [
+    "ollama",
+]
+
 # Default options for autodoc directives
 autodoc_default_options = {
     "members": True,
@@ -146,5 +150,5 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass [howto, manual, or own class]).
 latex_documents = [
     ('index', 'AgenticOptio.tex', 'AgenticOptio Documentation',
-     'CSP / KactLabs', 'manual'),
+     'Raja CSP Raman / KactLabs', 'manual'),
 ]
