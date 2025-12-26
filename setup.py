@@ -40,6 +40,10 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/kactlabs/agenticoptio",
+    project_urls={
+        "Documentation": "https://agenticoptio.readthedocs.io/en/latest/",
+        "Source": "https://github.com/kactlabs/agenticoptio",
+    },
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     classifiers=[

@@ -35,6 +35,8 @@ dev = [
 # No CLI scripts for this minimal library
 
 [project.urls]
+Documentation = "https://agenticoptio.readthedocs.io/en/latest/"
+Source = "https://github.com/kactlabs/agenticoptio"
 Homepage = "https://github.com/kactlabs/agenticoptio"
 Repository = "https://github.com/kactlabs/agenticoptio"
 Issues = "https://github.com/kactlabs/agenticoptio/issues"

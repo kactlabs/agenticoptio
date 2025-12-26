@@ -1,6 +1,7 @@
 # AgenticOptio
 
 [![PyPI version](https://badge.fury.io/py/agenticoptio.svg)](https://badge.fury.io/py/agenticoptio)
+[![Documentation Status](https://readthedocs.org/projects/agenticoptio/badge/?version=latest)](https://agenticoptio.readthedocs.io/en/latest/)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -248,7 +249,7 @@ In Roman legions, the **Optio** was the disciplined officer who transformed stra
 
 - **PyPI Package**: https://pypi.org/project/agenticoptio/
 - **GitHub Repository**: https://github.com/kactlabs/agenticoptio
-- **Documentation**: Coming soon
+- **Documentation**: https://agenticoptio.readthedocs.io/en/latest/
 
 ## License
 

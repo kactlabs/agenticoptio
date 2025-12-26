@@ -9,3 +9,9 @@ Disciplined agentic orchestration for multi-LLM systems.
    installation
    quickstart
    api/index
+
+Project Links
+=============
+
+- Source code: https://github.com/kactlabs/agenticoptio
+- Documentation: https://agenticoptio.readthedocs.io
