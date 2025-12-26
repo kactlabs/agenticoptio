@@ -22,8 +22,8 @@ sys.path.insert(0, os.path.abspath("../../source_one/src"))
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'AgenticOptio'
-copyright = '2025, CSP / KactLabs'
-author = 'CSP / KactLabs'
+copyright = '2025, Raja CSP Raman / KactLabs'
+author = 'Raja CSP Raman / KactLabs'
 release = '0.1.0'
 version = '0.1.0'
 
@@ -95,7 +95,7 @@ napoleon_attr_annotations = True
 # Links to external documentation
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3', None),
-    'openai': ('https://platform.openai.com/docs', None),
+    # 'openai': ('https://platform.openai.com/docs', None),
 }
 
 # -- Options for HTML output -------------------------------------------------
@@ -109,11 +109,11 @@ html_theme_options = {
     'canonical_url': '',
     'analytics_id': '',
     'logo_only': False,
-    'display_version': True,
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
     'vcs_pageview_mode': '',
     'style_nav_header_background': '#2980B9',
+
     # Toc options
     'collapse_navigation': True,
     'sticky_navigation': True,
@@ -121,6 +121,7 @@ html_theme_options = {
     'includehidden': True,
     'titles_only': False
 }
+
 
 # Custom sidebar
 html_sidebars = {
@@ -152,3 +153,10 @@ latex_documents = [
     ('index', 'AgenticOptio.tex', 'AgenticOptio Documentation',
      'Raja CSP Raman / KactLabs', 'manual'),
 ]
+
+suppress_warnings = [
+    "autodoc.import_object",
+    "autodoc",
+]
+
+nitpicky = False
