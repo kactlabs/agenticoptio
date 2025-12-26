@@ -21,7 +21,7 @@ sys.path.insert(0, os.path.abspath("../../source_one/src"))
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'AgenticOptio & AgenticFlow'
+project = 'AgenticOptio'
 copyright = '2025, CSP / KactLabs'
 author = 'CSP / KactLabs'
 release = '0.1.0'
