@@ -6,3 +6,4 @@ API Reference
 
    chat
    embeddings
+   agenticflow

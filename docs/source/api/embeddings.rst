@@ -1,5 +1,8 @@
 Embeddings
 ==========
 
-.. automodule:: agenticoptio.ollama.embedding
-   :members:
+.. automodule:: agenticoptio.models.ollama
+   :members: OllamaEmbedding
+
+.. automodule:: agenticoptio.models.base
+   :members: BaseEmbedding

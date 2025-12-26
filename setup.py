@@ -1,5 +1,29 @@
 """
 Setup script for AgenticOptio.
+
+This setup script configures the AgenticOptio package for installation
+using setuptools. It defines package metadata, dependencies, and
+installation requirements for the AgenticOptio library.
+
+Package Information:
+    - Name: agenticoptio
+    - Version: 0.1.0
+    - Description: Minimal AI agent library focused on Ollama integration
+    - Author: Raja CSP Raman
+    - License: MIT
+
+Dependencies:
+    - openai>=1.0.0 (required for Ollama API compatibility)
+    - pytest>=6.0 (development/testing)
+    - pytest-asyncio>=0.21.0 (async testing support)
+
+Python Support:
+    - Python 3.8+ (modern async/await support required)
+    - Cross-platform compatibility (Windows, macOS, Linux)
+
+Installation:
+    pip install -e .  # Development installation
+    pip install agenticoptio  # Production installation
 """
 
 from setuptools import setup, find_packages
