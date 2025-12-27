@@ -24,8 +24,8 @@ sys.path.insert(0, os.path.abspath("../../source_one/src"))
 project = 'AgenticOptio'
 copyright = '2025, Raja CSP Raman / KactLabs'
 author = 'Raja CSP Raman / KactLabs'
-release = '0.1.0'
-version = '0.1.0'
+release = '0.1.1'
+version = '0.1.1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

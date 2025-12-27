@@ -10,7 +10,7 @@ Currently supports Ollama with OpenAI, Anthropic, and other providers coming soo
 from agenticoptio.models.ollama import OllamaChat, OllamaEmbedding
 from agenticoptio.models.base import AIMessage, BaseChatModel, BaseEmbedding
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 __all__ = [
     "OllamaChat",

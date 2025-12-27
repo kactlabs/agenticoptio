@@ -33,7 +33,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="agenticoptio",
-    version="0.1.0",
+    version="0.1.1",
     author="Raja CSP Raman",
     author_email="raja.csp@gmail.com",
     description="Minimal AI agent library focused on Ollama integration",
